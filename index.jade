@@ -1,0 +1,145 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    title FLATTY - Free Bootstrap 3 Landing Page
+    link(rel='stylesheet', href='vendor/css/bootstrap.min.css')
+    link(rel='stylesheet', href='css/app.css')
+    script(src='js/app.js')
+    link(href='http://fonts.googleapis.com/css?family=Lato:300,400,900', rel='stylesheet', type='text/css')
+  body
+    .navbar.navbar-default.navbar-fixed-top
+      .container
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#')
+            b FLATTY
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav.navbar-right
+            li
+              a(href='#') Already a member?
+    #headerwrap
+      .container
+        .row
+          .col-lg-6
+            h1
+              | Make your landing page
+              br
+              | &#x9;&#x9;&#x9;&#x9;&#x9;look really good.
+            form.form-inline(role='form')
+              .form-group
+                input#exampleInputEmail1.form-control(type='email', placeholder='Enter your email address')
+              button.btn.btn-warning.btn-lg(type='submit') Invite Me!
+          .col-lg-6
+            img.img-responsive(src='http://www.blacktie.co/demo/flatty/assets/img/ipad-hand.png', alt='')
+    .container
+      .row.mt.centered
+        .col-lg-6.col-lg-offset-3
+          h1
+            | Your Landing Page
+            br
+            | Looks Wonderful Now.
+          h3
+            | It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+      .row.mt.centered
+        .col-lg-4
+          img(src='http://www.blacktie.co/demo/flatty/assets/img/ser01.png', width='180', alt='')
+          h4 1 - Browser Compatibility
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+        .col-lg-4
+          img(src='http://www.blacktie.co/demo/flatty/assets/img/ser02.png', width='180', alt='')
+          h4 2 - Email Campaigns
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+        .col-lg-4
+          img(src='http://www.blacktie.co/demo/flatty/assets/img/ser03.png', width='180', alt='')
+          h4 3 - Gather Your Notes
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+    .container
+      hr
+      .row.centered
+        .col-lg-6.col-lg-offset-3
+          form.form-inline(role='form')
+            .form-group
+              input#exampleInputEmail1.form-control(type='email', placeholder='Enter your email address')
+            button.btn.btn-warning.btn-lg(type='submit') Invite Me!
+        .col-lg-3
+      hr
+    .container
+      .row.mt.centered
+        .col-lg-6.col-lg-offset-3
+          h1 Flatty is for Everyone.
+          h3
+            | It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+      // -- CAROUSEL --
+      .row.mt.centered
+        .col-lg-6.col-lg-offset-3
+          #carousel-example-generic.carousel.slide(data-ride='carousel')
+            // Indicators
+            ol.carousel-indicators
+              li.active(data-target='#carousel-example-generic', data-slide-to='0')
+              li(data-target='#carousel-example-generic', data-slide-to='1')
+              li(data-target='#carousel-example-generic', data-slide-to='2')
+            // Wrapper for slides
+            .carousel-inner
+              .item.active
+                img(src='http://www.blacktie.co/demo/flatty/assets/img/p01.png', alt='')
+              .item
+                img(src='http://www.blacktie.co/demo/flatty/assets/img/p02.png', alt='')
+              .item
+                img(src='http://www.blacktie.co/demo/flatty/assets/img/p03.png', alt='')
+    .container
+      hr
+      .row.centered
+        .col-lg-6.col-lg-offset-3
+          form.form-inline(role='form')
+            .form-group
+              input#exampleInputEmail1.form-control(type='email', placeholder='Enter your email address')
+            button.btn.btn-warning.btn-lg(type='submit') Invite Me!
+        .col-lg-3
+      hr
+    .container
+      .row.mt.centered
+        .col-lg-6.col-lg-offset-3
+          h1
+            | Our Awesome Team.
+            br
+            | Design Lovers.
+          h3
+            | It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+      .row.mt.centered
+        .col-lg-4
+          img.img-circle(src='http://www.blacktie.co/demo/flatty/assets/img/pic1.jpg', width='140', alt='')
+          h4 Michael Robson
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+        .col-lg-4
+          img.img-circle(src='http://www.blacktie.co/demo/flatty/assets/img/pic2.jpg', width='140', alt='')
+          h4 Pete Ford
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+        .col-lg-4
+          img.img-circle(src='http://www.blacktie.co/demo/flatty/assets/img/pic3.jpg', width='140', alt='')
+          h4 Angelica Finning
+          p
+            | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever.
+    .container
+      hr
+      .row.centered
+        .col-lg-6.col-lg-offset-3
+          form.form-inline(role='form')
+            .form-group
+              input#exampleInputEmail1.form-control(type='email', placeholder='Enter your email address')
+            button.btn.btn-warning.btn-lg(type='submit') Invite Me!
+        .col-lg-3
+      hr
+      p.centered Created by BlackTie.co - Attribution License 3.0 - 2013
